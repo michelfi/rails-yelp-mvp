@@ -1,0 +1,7 @@
+<%= form_with model: @restaurant do |f| %>
+  <%= f.label :name %>
+  <%= f.label :address %>
+  <%= f.text_field :phone_number %>
+  <%= f.label :category %>
+  <%= f.submit "Submit restaurant", class: "btn btn-primary" %>
+<% end %>
